@@ -3,8 +3,8 @@ class Solution:
         i, j = 0, 0
         while i < len(s) and j < len(t):
             if s[i] == t[j]:
-                i += 1
-            j += 1
+                i += 1 #These move the pointers and increment
+            j += 1 #These move the pointers and increment
         return True if i == len(s) else False
 
 # There is two pointers we're using to compare each character in the s string to the t string.
